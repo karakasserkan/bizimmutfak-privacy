@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BizimMutfak — Gizlilik Politikası</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #FFF8F6;
+      color: #2C160E;
+      line-height: 1.7;
+    }
+    header {
+      background: #C24D2C;
+      color: #fff;
+      padding: 32px 24px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    header p { font-size: 14px; opacity: 0.85; }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+    .badge {
+      display: inline-block;
+      background: #EDF3D8;
+      color: #54651E;
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 32px;
+    }
+    .intro {
+      background: #fff;
+      border-left: 4px solid #C24D2C;
+      padding: 16px 20px;
+      border-radius: 0 12px 12px 0;
+      margin-bottom: 40px;
+      font-size: 15px;
+    }
+    .section { margin-bottom: 36px; }
+    .section h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #C24D2C;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #EDE0D8;
+    }
+    .section p { font-size: 15px; color: #5C4033; margin-bottom: 10px; }
+    .section ul { padding-left: 20px; }
+    .section ul li { font-size: 15px; color: #5C4033; margin-bottom: 6px; }
+    .contact-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 28px;
+      margin-top: 40px;
+      box-shadow: 0 4px 24px rgba(44,22,14,0.07);
+      text-align: center;
+    }
+    .contact-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+    .contact-card p { color: #5C4033; margin-bottom: 16px; }
+    .contact-card a {
+      display: inline-block;
+      background: #C24D2C;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .contact-card a:hover { background: #A13516; }
+    .owner { margin-top: 12px; font-size: 13px; color: #9B7B6A; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #9B7B6A;
+      border-top: 1px solid #EDE0D8;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🥕 BizimMutfak</h1>
+  <p>Gizlilik Politikası / Privacy Policy</p>
+</header>
+
+<div class="container">
+  <div class="badge">🛡️ Son güncelleme: Nisan 2026</div>
+
+  <div class="intro">
+    BizimMutfak uygulamasını kullanan kişilerin gizliliğini korumak önceliğimizdir.
+    Bu politika, hangi verilerin toplandığını, nasıl kullanıldığını ve haklarınızı açıklar.
+  </div>
+
+  <div class="section">
+    <h2>1. Toplanan Veriler</h2>
+    <p>Uygulama kullanımı sırasında aşağıdaki veriler toplanmaktadır:</p>
+    <ul>
+      <li>Ad ve soyad</li>
+      <li>E-posta adresi</li>
+      <li>Aile grubu bilgileri</li>
+      <li>Mutfak dolap ve ürün verileri (stok takibi)</li>
+      <li>Uygulama kullanım tercihleri (tema, dil)</li>
+      <li>Cihaz push notification token'ı (bildirimler için)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Verilerin Kullanımı</h2>
+    <p>Toplanan veriler yalnızca şu amaçlarla kullanılır:</p>
+    <ul>
+      <li>Hesap oluşturma ve kimlik doğrulama</li>
+      <li>Aile grubu yönetimi ve paylaşımı</li>
+      <li>Stok takibi ve bildirim gönderimi</li>
+      <li>Uygulama performansının iyileştirilmesi</li>
+    </ul>
+    <p>Verileriniz üçüncü taraflarla satılmaz veya pazarlama amacıyla paylaşılmaz.</p>
+  </div>
+
+  <div class="section">
+    <h2>3. Veri Saklama</h2>
+    <p>
+      Verileriniz güvenli sunucularda saklanır. Hesabınızı sildiğinizde tüm kişisel
+      verileriniz ve aile grubu bilgileriniz kalıcı olarak silinir. Silme işlemi
+      Profil → Uygulama Ayarları → Hesabı Sil menüsünden yapılabilir.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>4. Veri Güvenliği</h2>
+    <p>Verilerinizin güvenliği için:</p>
+    <ul>
+      <li>Şifreler bcrypt ile şifrelenerek saklanır</li>
+      <li>API iletişimi JWT token ile korunur</li>
+      <li>Hassas veriler cihazın güvenli deposunda (SecureStore) tutulur</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Üçüncü Taraf Hizmetler</h2>
+    <p>Uygulama aşağıdaki üçüncü taraf hizmetleri kullanmaktadır:</p>
+    <ul>
+      <li>Expo Push Notifications — bildirim gönderimi için</li>
+      <li>Sentry — uygulama hatalarının takibi için</li>
+    </ul>
+    <p>Bu hizmetlerin kendi gizlilik politikaları geçerlidir.</p>
+  </div>
+
+  <div class="section">
+    <h2>6. Kamera İzni</h2>
+    <p>
+      Uygulama, profil fotoğrafı yüklemek için kamera iznine ihtiyaç duyabilir.
+      Bu izin yalnızca kullanıcının açıkça talep ettiği durumlarda kullanılır
+      ve başka amaçlarla kullanılmaz.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>7. KVKK ve GDPR Kapsamındaki Haklarınız</h2>
+    <p>6698 sayılı KVKK ve GDPR kapsamında şu haklara sahipsiniz:</p>
+    <ul>
+      <li>Verilerinizin işlenip işlenmediğini öğrenme</li>
+      <li>İşlenen verileriniz hakkında bilgi talep etme</li>
+      <li>Verilerin silinmesini talep etme</li>
+      <li>Verilerin düzeltilmesini talep etme</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>8. Çocukların Gizliliği</h2>
+    <p>
+      Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve bu yaş grubundan
+      bilerek veri toplanmamaktadır.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>9. Politika Değişiklikleri</h2>
+    <p>
+      Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler
+      uygulama içi bildirimle duyurulur. Güncel tarih sayfanın üstünde belirtilmiştir.
+    </p>
+  </div>
+
+  <div class="contact-card">
+    <h3>İletişim</h3>
+    <p>Gizlilik ile ilgili sorularınız için:</p>
+    <a href="mailto:karakasserkangit@gmail.com">karakasserkangit@gmail.com</a>
+    <div class="owner">Serkan Karakaş — BizimMutfak Geliştiricisi</div>
+  </div>
+</div>
+
+<footer>
+  © 2026 BizimMutfak — Serkan Karakaş. Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>
